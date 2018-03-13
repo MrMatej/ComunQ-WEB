@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="jquery.matchHeight.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(function() {
+	$('.card').matchHeight();
+});
+	$(document).ready(function(){
+    $("topnav").click(function(){
+        $("a").hide(1000);
+    });
+});
+</script>
+
+<style>
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 20%;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+	
+	
+a {
+	text-decoration: none;
+}
+</style>
+</head>
+<body>
+
+
+<h1>Hamburger Navigation</h1>
+<nav>
+<ul class="topnav" id="myTopnav">
+  <a href="#" class="icon">&#9776;</a>
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about" class="last">About</a>
+</ul>
+</nav>
+
+
+<h2>Card</h2>
+
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer & and many more REALLY! xD</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>
+<div class="card">
+  <img src="image/img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+</div>s
+</body>
+</html> 
